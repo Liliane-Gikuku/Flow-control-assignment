@@ -48,10 +48,10 @@ fun longerNames(names:Array<String>): Int{
 }
 
 fun serveDrinks(age:Int){
-    if (age<6){
+    if (age<=6){
         println("A glass of milk")
     }
-    else if(age in 6..15) {
+    else if(age<15 && age>6) {
         println("A bottle of Fanta")
     }
     else{
